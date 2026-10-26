@@ -18,22 +18,24 @@ Last updated: 2026-10-26
 
 ## Active topic
 
-Prepare for a later session to establish an evidence-based baseline of the
-three web properties, their offerings, users, journeys, relationships,
-strengths, and pain points.
+Validate the baseline finding that CEDU's book-to-digital activation and
+learning-state continuity are the highest-priority cross-service risks.
 
 ## Next recommended action
 
-In a new work session, read `docs/research/source-map.md` and the historical
-vault index, then begin the service inventory in
-`docs/research/service-analysis.md`. Do not begin the analysis during the
-environment-setup session.
+Inventory the URL-level handoffs among CEDU Book, CEDU Learn, VOCA TEST,
+book-linked QR services, sign-in, and payment. Then execute the highest-risk
+guest/member/minor and free/paid journeys with authorized test accounts.
 
 ## Blockers
 
-- The relationship and role of each official web property still needs analysis.
 - Scope beyond the three websites (apps, social channels, commerce, support,
   and offline touchpoints) is not yet confirmed.
+- The rendered authenticated CEDU Learn and app journeys were not available in
+  this baseline.
+- Current status of historical QR, identity, entitlement, resume, and progress
+  defects is unknown.
+- Priority actor and intended final deliverable are not yet confirmed.
 
 ## Recent progress
 
@@ -43,4 +45,12 @@ environment-setup session.
   should lead to improvement ideas and new-service proposals.
 - Registered the three official sites and a local historical reference vault
   for future sessions.
+- Completed a baseline portfolio, actor, journey, strength, and pain-point
+  analysis in `docs/research/service-analysis.md`.
+- Established the roles of the three official properties: corporate portfolio,
+  book/content discovery, and online learning.
+- Used UI Bowl references for learning home, onboarding, result/review, and
+  progress-report patterns, including CEDU-specific limitations.
+- Prioritized book/QR activation continuity and learning-state recovery as
+  proposals requiring current-product validation.
 

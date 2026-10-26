@@ -2,7 +2,8 @@
 
 ## Product foundation
 
-1. What role does each supplied website play in the overall service portfolio?
+1. Which cross-domain identity, entitlement, and learning-record states are
+   shared today, and which are service-specific?
 2. Are there additional official app-store, social, commerce, or support URLs?
 3. Should the analysis cover all offerings or prioritize specific products?
 4. Which user groups matter most: students, parents, teachers, academies, or
@@ -27,4 +28,10 @@
   `https://cedugroup.com/`, and `https://cedulearn.com/`.
 - Historical context source: the private `myhousemouse/experience` repository,
   directory `Cedu-ServicePlanning-Obsidian-Vault`.
+- Baseline website roles: CEDU Group is the corporate/business portfolio hub;
+  CEDU Book is the publishing, discovery, resource, support, and commerce entry;
+  CEDU Learn is the book/content-linked online learning platform.
+- Baseline actors: students, teachers/academy operators, parents or purchasers,
+  and institutional administrators have distinct roles; learner and buyer
+  should not be assumed to be the same person.
 

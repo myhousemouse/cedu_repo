@@ -12,8 +12,11 @@ context, or clearly labeled hypotheses.
 
 ## Target users
 
-Open question: Who currently uses each CEDU service, and which user groups
-should the analysis prioritize?
+Baseline finding: the portfolio serves at least students, teachers/academy
+operators, parents or other purchasers, and institutional administrators. The
+learner, buyer, and operator are not always the same person.
+
+Open question: Which actor should the next phase prioritize?
 
 ## Desired outcome
 
@@ -22,8 +25,10 @@ prioritized set of improvement and new-service opportunities.
 
 ## Value proposition
 
-Open question: What value does CEDU currently provide, and where does that
-value differ from or fall behind alternatives?
+Baseline interpretation: CEDU's distinctive asset is the continuity from a
+broad, structured English-book catalogue into digital practice, assessment,
+review, and teacher operations. Research must still establish where users
+experience that portfolio as continuous versus fragmented.
 
 ## Scope
 

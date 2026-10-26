@@ -1,6 +1,6 @@
 # Research source map
 
-Status: Sources registered; analysis not started
+Status: Baseline sources reviewed; authenticated research pending
 
 ## Current official web properties
 
@@ -9,9 +9,9 @@ been established from evidence.
 
 | ID | URL | Initial status |
 | --- | --- | --- |
-| WEB-01 | `https://www.cedubook.com/` | Supplied by user; not yet analyzed |
-| WEB-02 | `https://cedugroup.com/` | Supplied by user; not yet analyzed |
-| WEB-03 | `https://cedulearn.com/` | Supplied by user; not yet analyzed |
+| WEB-01 | `https://www.cedubook.com/` | Public home and navigation reviewed 2026-10-26 |
+| WEB-02 | `https://cedugroup.com/` | Public home and business portfolio reviewed 2026-10-26 |
+| WEB-03 | `https://cedulearn.com/` | Public metadata reviewed 2026-10-26; rendered authenticated interface pending |
 
 For later research, record the access date, page URL, page title, relevant
 observation, and whether the material is current, archived, or inferred.
