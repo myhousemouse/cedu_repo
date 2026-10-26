@@ -25,6 +25,23 @@ Detailed features therefore use the dated vault and are labeled historical.
 Apps, app stores, social channels, analytics, VOC, and pricing were not
 comprehensively inventoried.
 
+### Confirmed analysis focus
+
+The primary service is **VOCA TEST**, not the full CEDU portfolio and not VOCA
+TEST Play / 보카플.
+
+- Primary user: teacher
+- Job to be done: use vocabulary from CEDU books to create test content for
+  students
+- Product type: teacher-facing learning-content authoring tool
+- Core authoring object: a printable or downloadable vocabulary test
+- Adjacent but distinct service: VOCA TEST Play / 보카플, where students learn
+  and review vocabulary digitally
+
+The portfolio material below is retained only to explain entry, content, and
+account context. Improvement analysis must be based on the teacher's VOCA TEST
+authoring workflow.
+
 ## 2. Portfolio roles
 
 | Property or service | Current observed role | Primary audience / job | Evidence | Confidence |
@@ -32,7 +49,7 @@ comprehensively inventoried.
 | `cedugroup.com` | Corporate and business-portfolio hub | Partners, applicants, press, and people evaluating the company | Current navigation covers company, businesses, brands, newsroom, careers, and inquiries; it names CEDU Book, CEDU Learn, Cheonilmun Study Cafe, and CEDU Culture Center. | High |
 | `cedubook.com` | Publishing catalogue, discovery, learning-material, support, and commerce entry | Students, parents, and teachers selecting books or resources | Current navigation separates elementary/middle/high books and materials, smart search, curriculum maps, support, account areas, and VOCA TEST. | High |
 | `cedulearn.com` | Online English-learning platform connected to CEDU content | Teachers operating classes and students completing learning | Current metadata describes an online English-learning platform using CEDU content; the corporate site positions it for learners and instructors. Historical records describe teacher campuses, assignments, training/test/review, grading, and reports. | High for role; medium for detailed current features |
-| VOCA TEST | Printable vocabulary-test creation attached to CEDU Book | Teachers or learners making tests from CEDU books | Current CEDU Book navigation exposes VOCA TEST and “나의 VOCA TEST.” Historical records describe a free print/download flow. | High for existence; medium for current flow |
+| VOCA TEST | Teacher-facing vocabulary-test authoring attached to CEDU Book | Teachers creating student tests from words in CEDU books | Current CEDU Book navigation exposes VOCA TEST and “나의 VOCA TEST.” Historical records describe book setup, range/type/count configuration, preview, save, print, and download. | High for purpose; medium for current detailed flow |
 | VOCA TEST Play / 보카플 | Book-linked vocabulary learning | Learners practicing synonyms/antonyms through tests and review | Current CEDU Book promotes a book-linked “보카플” function. Historical records describe QR/app entry, Day learning, game tests, incorrect-answer review, and paid continuation. | Medium |
 | Middle-school grammar N-je QR exercises | Book-linked, no-login supplementary questions | Book owners wanting extra practice and immediate results | Historical October 2026 records describe total assessment and basic training using QR entry and CEDU Learn question assets. Current flow was not executed. | Medium |
 
@@ -50,14 +67,15 @@ hypothesis until transitions are tested.
 
 | Actor | Goal and role | Evidence status |
 | --- | --- | --- |
-| Student | Select a book, access linked practice, complete learning, and know what to review | Current book segmentation and CEDU Learn positioning; detailed flows historical |
-| Teacher / academy instructor | Select content, obtain materials, create tests, assign work, and inspect results | Current teacher resources and VOCA TEST; detailed operations historical |
+| Teacher / academy instructor | Select a CEDU book and its words, configure and inspect a test, then save/print/download it for students | Confirmed primary user; current VOCA TEST entry plus historical guide |
+| Student | Take the teacher-produced test | Confirmed recipient, not the primary authoring user |
 | Parent | Select or pay for learning and understand progress | Historical under-14 guardian-verification QA; current journey unverified |
 | School / academy administrator | Standardize materials and manage classes/accounts | Inferred from historical campus and class-management records |
 | CEDU teams | Publish content, operate linked services, support users, and correct errors | Current catalogue/support plus historical QA workflow |
 
-Finding: learner, buyer, and operator are not necessarily the same person.
-Recommendations must identify who decides, pays, assigns, learns, and reviews.
+Finding: the teacher is the author and the student is the recipient. Analysis
+must optimize the teacher's production work without confusing it with the
+student-facing learning experience.
 
 ## 4. Key journeys and evidence-backed risks
 
@@ -71,7 +89,20 @@ Interpretation: these services can differentiate the book, but eligibility,
 free/trial/paid status, account requirements, and the next step need consistent
 explanation. Detail-page consistency has not yet been verified.
 
-### Book or QR to digital learning
+### VOCA TEST authoring
+
+Historical path: enter VOCA TEST from CEDU Book → add/select a book → choose
+units, question types, and item counts → inspect selected words and print
+preview → update changes → enter campus/class/teacher/test metadata → save,
+download, or print → manage prior tests.
+
+This is a multi-constraint authoring flow. The important UX questions are
+whether teachers can see the consequences of each choice, recover from a wrong
+selection without losing work, directly adjust generated content, and trust the
+final student-facing output. The current authenticated interface must be
+observed before any friction is treated as fact.
+
+### Adjacent book or QR learning (out of primary scope)
 
 Historical path: scan QR or enter app/web → select or recognize book → learn or
 test → receive results → review errors. The QA snapshot includes app-camera
@@ -99,52 +130,31 @@ not claims about the current production build.
 
 | ID | Type | Finding | Evidence / confidence | Likely impact |
 | --- | --- | --- | --- | --- |
-| F-01 | Observed fact | The official sites serve different portfolio layers but use separate architectures and task vocabularies. | Current public navigation; high | Cross-service tasks may lack a clear starting point. |
-| F-02 | Interpretation | Books connect discovery, QR access, vocabulary practice, printable tests, and CEDU Learn. | Current promotions plus historical service map; high | Clear eligibility and next-step messaging can improve activation and trust. |
-| F-03 | Historical fact | QR/app entry, identity conversion, entitlement, and record persistence produced multiple QA issues. | Vault QA rows 20, 23, 27, 63; high for snapshot, current status unknown | Failure near first use can erase trust before content value is experienced. |
-| F-04 | Historical fact | Resume, progress, and result states produced inconsistencies. | Vault QA rows 5, 17, 34, 58; high for snapshot, current status unknown | Learners may not know what is saved, complete, or next. |
-| F-05 | Observed fact | CEDU Book has strong discovery utilities: grade catalogues, smart search, curriculum maps, materials, and support. | Current CEDU Book; high | Valuable acquisition and support asset to preserve. |
-| F-06 | Historical fact | Digital concepts use structured repetition: Day progress, word relationships, tests, and error review. | Vault service map and week-1 analysis; medium | Differentiation can come from curriculum depth and book continuity. |
+| F-01 | Confirmed fact | VOCA TEST is a teacher-facing content-authoring tool whose output is a student vocabulary test based on CEDU-book words. | User correction, 2026-10-26; high | Teacher authoring efficiency and output confidence define the analysis. |
+| F-02 | Observed fact | CEDU Book exposes VOCA TEST and “나의 VOCA TEST” as account-linked destinations. | Current public navigation; high | Entry, saved work, and reuse are part of the service boundary. |
+| F-03 | Historical fact | The documented flow contains several dependent choices: book, unit/range, question type, item count, word review, metadata, and output. | Vault `쎄듀 서비스 정리 원문.md`; medium for current interface | Users need visible scope, reversible choices, and early conflict feedback. |
+| F-04 | Historical fact | The tool supports saving, downloading, and printing, and records campus/class/teacher/test names. | Same historical source; medium for current interface | Completion depends on the correctness of both content and physical/digital output. |
+| F-05 | Hypothesis | Reusing or adapting an existing test may be a frequent teacher job. | “나의 VOCA TEST” navigation; low until teacher research | Duplication/versioning could remove repetitive setup. |
+| F-06 | Research gap | No current authenticated authoring session or teacher observation has been completed. | Current access limitation; high | No current-screen friction should yet be reported as fact. |
 
 ## 6. UI/UX comparative evidence from UI Bowl
 
-CEDU serves book-linked learners, minors, teachers, and purchasers. Consumer
-language-app patterns cannot be copied without testing content density,
-safeguarding, entitlement, and teacher-assigned flows.
+The relevant comparison is a desktop authoring or configuration tool, not a
+student learning app. The references below demonstrate interaction patterns,
+not equivalent education workflows.
 
-### Learning home and next action
+- [Museby](https://uibowl.io/website/%EB%AE%A4%EC%A6%88%EB%B0%94%EC%9D%B4%20Museby?patterns=%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&imgId=cmttbab590028kz041nq3vokv) — the observed campaign-creation screen uses a visible stepper, keeps the editable form central, and places a live summary/status panel beside it. This supports showing a teacher where they are while preserving the consequences of earlier choices.
+- [Mailchimp](https://uibowl.io/website/%EB%A9%94%EC%9D%BC%EC%B9%A8%ED%94%84%20(Mailchimp)?patterns=%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&patternName=%EB%B8%8C%EB%9E%9C%EB%93%9C%20%ED%82%A4%ED%8A%B8) — the observed brand-kit builder groups different outputs into persistent, separately editable cards. This supports treating book/range, question composition, and test metadata as reviewable authoring sections rather than disposable wizard answers.
+- [Sabangnet](https://uibowl.io/website/%EC%82%AC%EB%B0%A9%EB%84%B7?patterns=%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&patternName=%EA%B3%A0%EA%B0%9D%20%EB%8C%80%EB%9F%89%20%EB%93%B1%EB%A1%9D) — the observed bulk-registration flow combines a dense table with validation, error states, and confirmation. This demonstrates that high-density work needs row-level feedback and recoverable errors rather than only a final failure message.
+- [Kyobo Book Centre](https://uibowl.io/website/%EA%B5%90%EB%B3%B4%EB%AC%B8%EA%B3%A0?patterns=%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&patternName=%EB%A6%AC%EC%8A%A4%ED%8A%B8) — the observed list-creation flow uses an explicit name, a selected-item list, and a completion confirmation. This supports making the authored collection and its save state visible.
 
-- [Plang](https://uibowl.io/name/%ED%94%8C%EB%9E%AD?patterns=%EB%A9%94%EC%9D%B8&patternName=%ED%95%99%EC%8A%B5%20%EC%A0%84) — the observed pre-learning home centers one “start today’s learning” action while keeping streak and report destinations visible. It demonstrates answering “what should I do now?” before exposing all features.
-- [Langflix](https://uibowl.io/name/%EB%9E%AD%ED%94%8C%EB%A6%AD%EC%8A%A4?patterns=%EB%A9%94%EC%9D%B8&patternName=1.%EC%BD%94%EC%8A%A4) — the observed home combines review percentage, streak, course progress, and one start action. It supports colocating status and resumption.
-- [Teumteumit](https://uibowl.io/name/%ED%8B%88%ED%8B%88%EC%9E%87?patterns=%EB%A9%94%EC%9D%B8&patternName=%ED%99%88) — the observed home uses one daily knowledge card and compact navigation, demonstrating progressive disclosure for a short daily job.
-
-Proposed CEDU application: after QR/app entry, show recognized book and Day,
-saved/entitled state, one next learning/review action, and a recoverable
-change-book action. Unlike the references, CEDU must also explain ownership,
-trial/payment boundaries, and whether guest activity will persist.
-
-### Onboarding and activation
-
-- [Plang](https://uibowl.io/name/%ED%94%8C%EB%9E%AD?patterns=%EC%98%A8%EB%B3%B4%EB%94%A9) — the observed nine-screen flow starts with a lightweight welcome, then uses explicit choices, progress indication, and completion feedback.
-- [Teumteumit](https://uibowl.io/name/%ED%8B%88%ED%8B%88%EC%9E%87?patterns=%EC%98%A8%EB%B3%B4%EB%94%A9) — the observed 1-of-5 step previews the workload and makes selectable learning volume concrete.
-- [Langflix](https://uibowl.io/name/%EB%9E%AD%ED%94%8C%EB%A6%AD%EC%8A%A4?patterns=%EC%98%A8%EB%B3%B4%EB%94%A9) — the observed first screen states the content value before asking the user to begin or sign in.
-
-Proposed CEDU application: make QR activation a state-confirmation flow, not a
-generic tour: recognized book → free/paid and sign-in implications → saved-
-learning choice → ready state. Historical guest-to-member and wrong-book issues
-make confirmation and recovery more important than early personalization.
-
-### Results, review, and progress
-
-- [Santa](https://uibowl.io/name/%EC%82%B0%ED%83%80?patterns=%ED%95%99%EC%8A%B5%ED%95%98%EA%B8%B0&patternName=%ED%95%99%EC%8A%B5%20%EA%B2%B0%EA%B3%BC%20%EB%B3%B5%EC%8A%B5) — the observed review retains answer context and offers optional AI explanation. Review is an action on a mistake, not only a score.
-- [Teumteumit](https://uibowl.io/name/%ED%8B%88%ED%8B%88%EC%9E%87?patterns=%ED%86%B5%EA%B3%84%C2%B7%EB%A6%AC%ED%8F%AC%ED%8A%B8&patternName=%EB%82%A0%EC%A7%9C%EB%B3%84%20%EC%8A%A4%ED%83%AC%ED%94%84) — the observed calendar turns repeated activity into a simple date-based history.
-- [Semo](https://uibowl.io/name/%EC%84%B8%EB%AA%A8?patterns=%ED%86%B5%EA%B3%84%C2%B7%EB%A6%AC%ED%8F%AC%ED%8A%B8&patternName=%EA%B7%B8%EB%9E%98%ED%94%84) — the observed report explains that analysis begins after a test, treating “not enough data” as a designed state.
-- [Plang](https://uibowl.io/name/%ED%94%8C%EB%9E%AD?patterns=%ED%86%B5%EA%B3%84%C2%B7%EB%A6%AC%ED%8F%AC%ED%8A%B8&patternName=%EB%A0%88%EB%B2%A8%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B2%B0%EA%B3%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8) — the observed report gives an outcome, interpretable skill range, and confirmation action rather than raw metrics alone.
-
-Proposed CEDU application: define one source of truth for Day completion, score,
-incorrect-answer count, review state, and book progress. Results should explain
-the outcome, offer the next review action, and show whether progress was saved.
-Empty, interrupted, offline, and partially synced states need recovery actions.
+Proposed VOCA TEST application: use a staged but reversible builder—book and
+range → question composition → word/item review → output preview and metadata →
+save/print/download. Keep a persistent summary of selected scope and item count;
+validate conflicts where they occur; allow teachers to move backward without
+discarding edits. Unlike campaign or commerce tools, VOCA TEST must also
+preserve pedagogical balance, answer-key correctness, print layout, and
+copyright-bounded CEDU content.
 
 ## 7. Strengths to preserve
 
@@ -162,18 +172,18 @@ These are proposals, not accepted product decisions.
 
 | Priority | Opportunity | Evidence | Expected outcome | Validation needed |
 | --- | --- | --- | --- | --- |
-| 1 | Own book/QR activation, identity, entitlement, and saved-state continuity as one journey | F-02, F-03; onboarding references | Fewer first-use dead ends and clearer trust | Test guest, member, minor, wrong-book, trial/expired, app/web, and offline cases |
-| 2 | Create a consistent learning-state model and recovery UX | F-04; home/result/report references | Learners can resume and understand completion and next action | Reconcile state definitions; test interrupted and partially synced sessions |
-| 3 | Clarify portfolio wayfinding and cross-service handoffs | F-01, F-02 | Users know whether to use CEDU Book, Learn, VOCA TEST, or a linked tool | Inventory entries/exits and test top tasks by actor |
-| 4 | Turn results into targeted review rather than a terminal score | F-04, F-06; Santa/report references | Stronger learning loop and clearer digital value | Define pedagogical rules and test comprehension |
-| 5 | Give teachers and parents role-appropriate progress explanations | Actor map; F-06 | Better decisions without unnecessary detail | Confirm priorities, privacy, and minor-account constraints |
+| 1 | Make the authoring scope and resulting item count continuously visible | Historical authoring flow; Museby | Fewer configuration mistakes and less backtracking | Observe teachers creating short and large tests |
+| 2 | Make every generation step reversible without losing valid work | Multi-constraint flow; Mailchimp | Faster iteration and safer experimentation | Verify current save/regenerate behavior |
+| 3 | Add item-level review, validation, and selective regeneration/editing | Teacher output-confidence need; Sabangnet | Fewer content and answer-key errors | Confirm which item properties teachers may edit |
+| 4 | Treat preview, answer sheet, print/download, and metadata as one output check | Historical flow | Higher confidence before distributing a test | Test common printers, file formats, and long campus/class names |
+| 5 | Support finding, duplicating, and adapting prior tests | “나의 VOCA TEST” entry; Kyobo list pattern | Less repeated setup for recurring classes | Measure reuse frequency and versioning needs |
 
 ## 9. Next research actions
 
-1. Inventory book detail, material, VOCA TEST, QR, sign-in, pricing, support,
-   and cross-domain transitions at URL level.
-2. Execute top journeys with authorized test accounts on mobile web and app,
-   recording guest/member/minor and free/paid state changes.
-3. Verify current status of historical QA risks.
-4. Observe at least one student, teacher, and purchaser/parent.
+1. Observe the complete authenticated VOCA TEST teacher flow.
+2. Record fields, defaults, constraints, validation, save behavior, and output
+   at each authoring step.
+3. Ask teachers to create a new test and adapt an old one; measure hesitation,
+   backtracking, and manual checking.
+4. Verify print/download and answer-sheet output across realistic item counts.
 5. Convert opportunities into requirements only after that validation.

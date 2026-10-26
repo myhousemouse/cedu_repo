@@ -8,34 +8,35 @@ Last updated: 2026-10-26
 - Planning will be maintained under the root `docs/` directory.
 - Application code should not be created yet.
 - Planning context must remain usable when work continues in a new session.
-- The project will investigate and analyze CEDU's existing services.
+- The primary service under analysis is VOCA TEST.
+- VOCA TEST is a teacher-facing learning-content authoring tool: a teacher uses
+  words from CEDU books to create tests for students.
+- VOCA TEST Play / 보카플 is a separate student learning service and is not the
+  primary analysis target.
 - The intended outputs are evidence-based improvement ideas and proposals for
   new services.
-- Three distinct official web properties are initially in scope:
-  `cedubook.com`, `cedugroup.com`, and `cedulearn.com`.
+- CEDU Group, CEDU Book, and CEDU Learn remain portfolio context; only CEDU
+  Book's relationship to VOCA TEST is directly in scope.
 - Historical planning and QA context is available from the private `experience`
   repository's `Cedu-ServicePlanning-Obsidian-Vault` directory.
 
 ## Active topic
 
-Validate the baseline finding that CEDU's book-to-digital activation and
-learning-state continuity are the highest-priority cross-service risks.
+Establish the current VOCA TEST authoring flow and identify the teacher's
+highest-effort, highest-error steps.
 
 ## Next recommended action
 
-Inventory the URL-level handoffs among CEDU Book, CEDU Learn, VOCA TEST,
-book-linked QR services, sign-in, and payment. Then execute the highest-risk
-guest/member/minor and free/paid journeys with authorized test accounts.
+Observe the complete teacher journey: enter from CEDU Book → register/select a
+book → choose unit/word range → configure item types and counts → inspect and
+edit the generated test → save → print/download → find and reuse a prior test.
 
 ## Blockers
 
-- Scope beyond the three websites (apps, social channels, commerce, support,
-  and offline touchpoints) is not yet confirmed.
-- The rendered authenticated CEDU Learn and app journeys were not available in
-  this baseline.
-- Current status of historical QR, identity, entitlement, resume, and progress
-  defects is unknown.
-- Priority actor and intended final deliverable are not yet confirmed.
+- The authenticated VOCA TEST authoring interface has not yet been observed.
+- Teacher constraints, current pain points, frequency of use, and required
+  output formats are not yet confirmed.
+- The intended final deliverable is not yet confirmed.
 
 ## Recent progress
 
@@ -49,8 +50,11 @@ guest/member/minor and free/paid journeys with authorized test accounts.
   analysis in `docs/research/service-analysis.md`.
 - Established the roles of the three official properties: corporate portfolio,
   book/content discovery, and online learning.
-- Used UI Bowl references for learning home, onboarding, result/review, and
-  progress-report patterns, including CEDU-specific limitations.
-- Prioritized book/QR activation continuity and learning-state recovery as
-  proposals requiring current-product validation.
+- Replaced student-learning UI Bowl references with desktop creation,
+  configuration, validation, and list-management patterns relevant to an
+  authoring tool.
+- User correction narrowed the primary target from the CEDU portfolio to VOCA
+  TEST and identified the teacher as the authoring user.
+- Reclassified VOCA TEST Play / 보카플 student-learning findings as background,
+  not evidence about the target service.
 

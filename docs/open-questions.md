@@ -2,17 +2,17 @@
 
 ## Product foundation
 
-1. Which cross-domain identity, entitlement, and learning-record states are
-   shared today, and which are service-specific?
-2. Are there additional official app-store, social, commerce, or support URLs?
-3. Should the analysis cover all offerings or prioritize specific products?
-4. Which user groups matter most: students, parents, teachers, academies, or
-   another group?
+1. How does a teacher currently enter VOCA TEST and register or select a book?
+2. Which authoring step creates the most time, confusion, or rework?
+3. Which controls exist for unit/range, word inclusion, item type, item count,
+   distribution, answer order, and test metadata?
+4. Can teachers directly edit generated questions and regenerate only selected
+   items without losing prior work?
 5. Is this analysis for an internal strategy proposal, portfolio, competition,
    interview, or another purpose?
 6. Are internal materials such as analytics, VOC, surveys, or business goals
    available?
-7. Which markets and competitors should be included?
+7. Which teacher test-authoring tools or workarounds should be compared?
 8. What deadline and final deliverable format apply?
 9. Are there areas that must not be investigated or included?
 
@@ -34,4 +34,9 @@
 - Baseline actors: students, teachers/academy operators, parents or purchasers,
   and institutional administrators have distinct roles; learner and buyer
   should not be assumed to be the same person.
+- Primary analysis target: VOCA TEST, not the whole CEDU portfolio.
+- Primary user and job: a teacher creates student vocabulary tests from words
+  in CEDU books.
+- VOCA TEST Play / 보카플 is a separate student-learning service and is outside
+  the primary analysis scope.
 
