@@ -52,3 +52,22 @@ Use sources according to the question being answered:
 5. Analyst inference, always labeled as inference
 
 Conflicts should be recorded rather than silently resolved.
+
+## UI/UX reference source
+
+For UI/UX analysis, use the UI Bowl (`uibowl`) plugin when it is available in
+the session. Treat its results as comparative design references, not proof that
+the same solution will work for CEDU.
+
+For every cited example, retain:
+
+- Service or product name
+- Source URL or plugin-provided reference
+- Screen, flow, or interaction pattern
+- Date accessed
+- Relevant observation
+- Why it supports the analysis
+- Differences or limitations when applied to CEDU
+
+If the plugin is not attached to the current session, disclose that limitation
+and do not imply that its database was searched.

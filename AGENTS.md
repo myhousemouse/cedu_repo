@@ -40,6 +40,25 @@ the user explicitly changes the phase.
   change to that repository.
 - Do not add secrets, private credentials, or personal data to the repository.
 
+## UI/UX research
+
+When a task involves UI/UX analysis and the UI Bowl (`uibowl`) plugin is
+available in the current session:
+
+1. Use UI Bowl to find comparable screens, interaction patterns, and relevant
+   reference services.
+2. Record the service or product name, source URL or plugin-provided reference,
+   screen or pattern, and access date.
+3. Explain what the example demonstrates and why it supports the finding or
+   recommendation; a screenshot or similarity alone is not evidence.
+4. Describe the important difference between the reference context and CEDU's
+   users, content, journey, and constraints.
+5. Keep observed facts, interpretation, and proposed application separate.
+6. Prefer multiple relevant examples when making a broad pattern claim.
+
+Do not claim that UI Bowl was used when its tool is unavailable. In that case,
+state the limitation and use other permitted, source-backed research methods.
+
 ## End every planning task
 
 Before finishing a task that changes the plan:
